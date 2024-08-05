@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0b7202; /* Cor de fundo padrão */
+    color: #333; /* Cor do texto padrão */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000; /* Fundo branco para conteúdo */
+    box-shadow: 0 0 10px rgba(1, 104, 9, 0.301); /* Sombra sutil */
+}
+
+header {
+    background-color: #014e1a; /* Cor de fundo azul */
+    color: #0d9708; /* Cor do texto branco */
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.content {
+    padding: 40px 0;
+    background-color: #04be3f; /* Cor de fundo verde */
+    color: #ffffff; /* Cor do texto preto */
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #04be3f; /* Fundo branco para benefícios */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(4, 82, 4, 0.397);
+}
+
+.benefit img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 1.1rem;
+}
+
+.call-to-action {
+    background-color: #014e1a;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #4682b4;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #357ca5;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
